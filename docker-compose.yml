@@ -41,7 +41,7 @@ services:
   phpmyadmin:
     image: bitnami/phpmyadmin:5.2.0-debian-11-r43
     ports:
-      - 8080:8080
+      - 8181:8080
       - 8444:8443
     environment:
         DATABASE_HOST: mysql
